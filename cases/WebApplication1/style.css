@@ -1,0 +1,284 @@
+﻿body {
+    background-image: url('http://192.168.1.201:8082/concrete.png');
+    background-repeat:round;
+    
+}
+h1{
+    text-align:center;
+    color: #0033CC;
+}
+.rounded {
+-moz-border-radius: 15px;
+-webkit-border-radius: 15px;
+border-radius: 15px; 
+box-shadow: 5px 5px 10px #888888;
+}
+.rounded:focus{
+    outline: 0;
+    
+}
+.required:after
+{
+    content: " *";
+    color: red;
+}
+.FrozenHeader{
+    background-color:Gray;
+    position: relative;
+    cursor: default;            
+    top: expression(document.getElementById("GridViewContainer").scrollTop-2); 
+    z-index: 10;
+}
+.FrozenHeader.locked
+        {
+            z-index: 99;
+        }
+.wallpaper{
+    background-image: url('http://www.technor.gr/assets/images/Projects/CCS/BALSAMIOTI/2_100_3186.JPG');
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+    height: 1015px;
+
+    -webkit-animation-name: dropHeader1;
+    -webkit-animation-iteration-count: 1;
+    
+    -webkit-animation-duration: 2s;
+    -moz-animation-name: dropHeader1;
+    -moz-animation-iteration-count: 1;
+    
+    -moz-animation-duration: 2s;
+    animation-name: dropHeader1;
+    animation-iteration-count: 1;
+    
+    animation-duration: 2s;
+    animation-delay: 0s;
+}
+.inlineBlock { display: inline-block;
+    text-align:left;
+    vertical-align:top;
+    margin-top: 0px;
+    margin-left: 0px;
+    }
+.textbox4{
+    text-align:center;
+    align-content:center;
+    align-items:center;
+}
+.textbox{
+    text-align:center;
+    align-content:center;
+    align-items:center;
+}
+.textbox1{
+    text-align:center;
+    align-content:center;
+    align-items:center;
+    margin-bottom:8px;
+    margin-top: 3px;
+    height: 42px;
+}
+.textbox2{
+    align-content:center;
+    align-items:center;
+    margin-left: 0px;
+}
+.labels{   
+     margin-right: 19px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family:Calibri;
+    color:black;
+}
+.button:hover{
+    -webkit-animation-name: hvr-pulse-grow;
+  animation-name: hvr-pulse-grow;
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+}
+@keyframes hvr-pulse-grow {
+  to {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+}
+.headlabels{
+    font-family:Cambria;
+    color:darkcyan;
+    margin-top: 0px;
+    margin-bottom: 3px;
+    text-align: center;
+    margin-left: 15px;
+}
+.textboxes{   
+    margin-top: 12px;
+    margin-bottom: 4px;
+}
+.image{
+    text-align:left;
+    margin-bottom:0px;
+    height: 138px;
+}
+#GridView1{
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 11px;
+    margin-bottom: 0px;
+}
+#GridView2{
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 11px;
+    margin-bottom: 0px;
+}
+.android{
+    text-align:left;
+    align-content:center;
+    align-items:center;
+    height: 71px;
+}
+.Image1{
+    -webkit-animation-name: dropHeader;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: ease-in;
+    -webkit-animation-duration: 1s;
+    -moz-animation-name: dropHeader;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: ease-in;
+    -moz-animation-duration: 1s;
+    animation-name: dropHeader;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    margin-top: 8px;
+    margin-bottom: 0px;
+    height: 104px;
+    width: 342px;
+    text-align:left;
+    margin-left: 54px;
+}
+.Image2{
+    margin-top:10px;
+    margin-left: 3px;
+    margin-right: 11px;
+}
+
+/*@-webkit-keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+}
+
+@keyframes example {
+    0%   {background-color:darkblue; left:0px; top:0px;}
+    25%  {background-color:darkgray; left:200px; top:0px;}
+    50%  {background-color:black; left:200px; top:200px;}
+    75%  {background-color:darkgreen; left:0px; top:200px;}
+    100% {background-color:ThreeDDarkShadow; left:0px; top:0px;}
+}*/
+
+@-webkit-keyframes dropHeader {
+    0% {
+        -webkit-transform: translateY(-40px);
+    }
+    /*50%{
+        -webkit-transform: rotateY(180deg);
+    }*/
+    100% {
+        -webkit-transform: translateY(0);
+    }
+}
+
+@-moz-keyframes dropHeader {
+    0% {
+        -moz-transform: translateY(-40px);
+    }
+    /*50%{
+        -moz-transform: rotateY(180deg);
+    }*/
+    100% {
+        -moz-transform: translateY(0);
+    }
+}
+
+/*@keyframes dropHeader {
+    0% {
+        transform: translateY(-40px);
+    }
+    50%{
+        transform: rotateY(180deg);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}*/
+
+@-o-keyframes dropHeader{
+    0% {
+        -o-transform: translateY(-40px);
+    }
+    /*50%{
+        -o-transform: rotateY(180deg);
+    }*/
+    100% {
+        -o-transform: translateY(0);
+    }
+}
+
+/*@-ms-keyframes dropHeader{
+    0% {
+        -ms-transform: translateY(-40px);
+    }
+    50%{
+        -ms-transform: rotateY(180deg);
+    }
+    100% {
+        -ms-transform: translateY(0);
+    }
+}*/
+
+@-webkit-keyframes dropHeader1 {
+    0% {
+        -webkit-transform: translateY(500px);
+    }
+    /*50%{
+        -webkit-transform: rotateY(180deg);
+    }*/
+    100% {
+        -webkit-transform: translateY(0px);
+    }
+}
+
+@-moz-keyframes dropHeader1 {
+    0% {
+        -moz-transform: translateY(500px);
+    }
+    /*50%{
+        -moz-transform: rotateY(180deg);
+    }*/
+    100% {
+        -moz-transform: translateY(0px);
+    }
+}
+
+@-o-keyframes dropHeader1{
+    0% {
+        -o-transform: translateY(500px);
+    }
+    /*50%{
+        -o-transform: rotateY(180deg);
+    }*/
+    100% {
+        -o-transform: translateY(0px);
+    }
+}

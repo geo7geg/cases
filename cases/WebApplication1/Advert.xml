@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+  <Ad>
+    <!-- The URL for the ad image -->
+    <ImageUrl>http://www.jpl.nasa.gov/images/wise/20131219/pia17811-640.jpg</ImageUrl>
+    <!-- The URL the ad redirects the user to -->
+    <NavigateUrl>http://www.microsoft.com</NavigateUrl>
+    <!-- The alternate text for the image -->
+    <AlternateText>Visit Microsoft's Site</AlternateText>
+    <!-- The relative number of times this ad should appear -->
+    <!-- compared to the others -->
+    <Impressions>80</Impressions>
+    <!-- The topic of this ad (used for filtering) -->
+    <Keyword>ProductInfo</Keyword>
+  </Ad>
+  <Ad>
+    <ImageUrl>http://upload.wikimedia.org/wikipedia/commons/1/1a/Bachalpseeflowers.jpg</ImageUrl>
+    <NavigateUrl>http://www.microsoft.com/technet</NavigateUrl>
+    <AlternateText>Support for IT Professionals</AlternateText>
+    <Impressions>40</Impressions>
+    <Keyword>Support</Keyword>
+  </Ad>
+  <Ad>
+    <ImageUrl>http://wallpup.com/wp-content/uploads/2013/02/Incredible-Nature-Wallpapers.jpeg</ImageUrl>
+    <NavigateUrl>http://msdn.microsoft.com</NavigateUrl>
+    <AlternateText>Support for developers</AlternateText>
+    <Impressions>40</Impressions>
+    <Keyword>Support</Keyword>
+  </Ad>
+</Advertisements>
